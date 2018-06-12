@@ -1,16 +1,21 @@
 {
-  "name": "s2s",
+  "name": "stos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/whitemiaool/s2s",
+  "keywords": [
+    "babel",
+    "yeyeye"
+  ],
   "bin": {
-    "s2s": "bin/jmc"
+    "stos": "bin/jmc"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lvcy dyxuan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.3",
     "commander": "^2.15.1",
