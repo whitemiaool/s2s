@@ -1,0 +1,14 @@
+#! /usr/bin/env node 
+const program = require('commander');
+const cmp = require('../index');
+program
+    .command('c')
+    .description('编译模块')
+    .action(option => {
+        if(typeof option == 'string') {
+            cmp(option);
+            return
+        } 
+        cmp();
+    })
+    program.parse(process.argv)

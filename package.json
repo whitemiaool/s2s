@@ -1,0 +1,22 @@
+{
+  "name": "s2s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "s2s": "bin/jmc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvcy dyxuan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "commander": "^2.15.1",
+    "output-file-sync": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
